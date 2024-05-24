@@ -1,0 +1,4 @@
+#! /bin/sh 
+#who | w -l #counts number of output lines 
+
+who | grep $1
